@@ -1,0 +1,24 @@
+windows R
+cmd
+cd desktop
+md test
+cd test
+md index.html
+md styles.css
+md aboutMe.txt
+git init
+git status
+git add aboutMe.txt
+git commit -m "aboutMe.txt"
+git status
+git add aboutMe.txt
+git commit -m "updated about me"
+git status
+git add aboutMe.txt
+git commit -m "added favorite movie to aboutMe"
+git log
+git revert -n 670d42
+git commit -m "revert 670d42"
+git status
+git addaboutMe.txt
+git commit -m "changed favorite movie after revert"
